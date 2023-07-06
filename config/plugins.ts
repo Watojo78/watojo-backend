@@ -1,5 +1,8 @@
 module.exports = ({ env }) => ({
     // ...
+    "vercel-deploy": {
+      enabled: true,
+    },
     upload: {
       config: {
         provider: 'cloudinary',
