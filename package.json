@@ -10,13 +10,19 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@getbrevo/brevo": "^1.0.1",
     "@minhtrn/strapi-plugin-github-projects": "^1.0.3",
+    "@offset-dev/strapi-calendar": "^0.0.10",
+    "@strapi/plugin-color-picker": "^4.11.5",
     "@strapi/plugin-i18n": "4.11.3",
     "@strapi/plugin-users-permissions": "4.11.3",
+    "@strapi/provider-email-sendgrid": "^4.11.5",
     "@strapi/provider-upload-cloudinary": "^4.11.3",
     "@strapi/strapi": "4.11.3",
     "pg": "8.8.0",
-    "strapi-google-auth": "^0.1.2",
+    "strapi-plugin-ezforms": "^0.1.5",
+    "strapi-plugin-import-export-entries": "^1.21.0",
+    "strapi-plugin-rest-cache": "^4.2.7",
     "strapi-plugin-vercel-deploy": "^1.4.0"
   },
   "author": {
